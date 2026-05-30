@@ -49,6 +49,5 @@ export const config = {
   host: getListenHost(),
   appHome,
   uploadDir: process.env.UPLOAD_DIR || join(appHome, 'upload'),
-  dataDir: resolve(__dirname, '..', 'data'),
   corsOrigins: process.env.CORS_ORIGINS || '*',
 }
